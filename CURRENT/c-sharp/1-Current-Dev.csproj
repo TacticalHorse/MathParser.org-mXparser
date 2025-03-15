@@ -55,7 +55,7 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\..\..\..\pfx-keys\mariuszgromada.org.pfx</AssemblyOriginatorKeyFile>
@@ -124,6 +124,7 @@
     <Compile Include="src\org\mariuszgromada\math\mxparser\parsertokens\Unit.cs" />
     <Compile Include="src\org\mariuszgromada\math\mxparser\PrimitiveElement.cs" />
     <Compile Include="src\org\mariuszgromada\math\mxparser\RecursiveArgument.cs" />
+    <Compile Include="src\org\mariuszgromada\math\mxparser\StringResourcesChinese.cs" />
     <Compile Include="src\org\mariuszgromada\math\mxparser\syntaxchecker\ParseException.cs" />
     <Compile Include="src\org\mariuszgromada\math\mxparser\syntaxchecker\SimpleCharStream.cs" />
     <Compile Include="src\org\mariuszgromada\math\mxparser\syntaxchecker\SyntaxChecker.cs" />

@@ -5209,6 +5209,7 @@ namespace org.mariuszgromada.math.mxparser {
             try {
 				return calculateInternal(calcStepsRegister);
 			} catch (Exception e) {
+				if(verboseMode)
 				registerErrorWhileCalculate(
 						StringModel.STRING_RESOURCES.ERROR_WHILE_EXECUTING_THE_CALCULATE
 								+ StringInvariant.SPACE + StringModel.STRING_RESOURCES.EXCEPTION
